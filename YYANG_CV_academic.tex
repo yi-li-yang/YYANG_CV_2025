@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\baselinestretch}{0.99}
+\documentclass{resume} % Use the custom resume.cls style
+\newenvironment{indentpar}[1]%
+  {\begin{list}{}%
+          {\setlength{\leftmargin}{#1}}%
+          \item[]%
+  }
+  {\end{list}}
+\linespread{1}
+\fontsize{12}{13.5}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.25\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{YILI YANG} % Your name
+\address{+44 7490334233\textbar\textbar yyang@woodwellclimate.org\textbar\textbar ORCID 0000-0002-1791-3899} % Your phone number and email
+
+\begin{document}
+%-------------------------------------------------------------
+%====================================================
+\begin{rSection}{Research Interest}
+My research focuses on integrating artificial intelligence with Earth sciences to address critical environmental challenges, particularly in Arctic regions. I am experienced in developing deep learning approaches for processing remote sensing data, with emphasis on computer vision techniques for mapping permafrost degradation, wildfire impacts, and water body dynamics. My work bridges traditional geoscience with cutting-edge deep learning methods, particularly in semantic segmentation and object detection for satellite imagery analysis. Current projects include mapping retrogressive thaw slumps using neural networks to model carbon emissions from Eddy covairance tower measurements, contributing to our understanding of climate change impacts.
+\end{rSection}
+%====================================================
+
+\begin{rSection}{Experience}
+{\bf Data Scientist, Woodwell Climate Research Center, MA, US} \hfill {Jan 2022 - } 
+
+\begin{indentpar} {0.5cm} RTS Mapping Project Lead
+\end{indentpar}
+\begin{indentpar} {1cm} 
+The long-term goal of this project is to produce a pan-Arctic RTS map for understanding the importance of abrupt thaw on Arctic landscapes and carbon feedback. By using state-of-the-art deep learning approaches, combined with high-resolution satellite remote sensing imagery, we aim to train and deploy a deep learning model that can detect and segment RTS features across different regions in the Arctic. This project is also associated with several Arctic-related research projects such as the Permafrost Pathways, the RTSinTrain project, the Permafrost Discovery Gateway project and the Google.org Arctic project.
+\end{indentpar}
+
+\begin{indentpar} {0.5cm} Workshop Organiser
+\end{indentpar}
+\begin{indentpar} {1cm} 
+The organiser of an annual machine-learning workshop that intends to provide researchers with knowledge to start their own ML project. The workshop contents span from introduction to advanced image processing and time-series forecasting and so on.
+\end{indentpar}
+
+{\bf Data Science Fellow, Faculty.ai, London, UK} \hfill {Sep 2021 - Dec 2021} 
+\begin{indentpar}{0.5cm}
+Fellowship in Machine Learning and Artificial Intelligence
+\end{indentpar}
+
+{\bf PhD Researcher, ICCR, Edinburgh, UK} \hfill {Sep 2017 - Sep 2020} 
+\begin{indentpar}{0.5cm}
+PhD Candidate on Multiphase Fluid Flow in Porous Medium
+\end{indentpar}
+\end{rSection}
+%===============================================================
+\begin{rSection}{Education}
+{\bf University of Edinburgh, UK} 
+
+\begin{indentpar}{0.5cm}
+\textbf{PhD in Petrophysics} \hfill {Oct 2016 - Apr 2021}
+
+\textbf{MSc (Research) in Geology, Distinction} \hfill {August 2015 - August 2016}
+
+\textbf{BSc Geology, Upper Second} \hfill {Sep 2011 - May 2015} 
+\end{indentpar}
+
+\end{rSection}
+%====================================================
+\begin{rSection}{SELECTED WORKS}
+\underline{Yang Y}, Rogers B M, Fiske G, et al. Mapping retrogressive thaw slumps using deep neural networks. Remote Sensing of Environment[J], 2023
+
+Mullen A, Watts J D, Rogers B M, ... \underline{Yang Y} et al. Using High-resolution Satellite Imagery and Deep Learning to Track Dynamic Seasonality in Small Water Bodies. Geophysical Research Letters[J], 2023
+
+Li W, Hsu C Y, Wang S, ... \underline{Yang Y} et al. Segment anything model can not segment anything: Assessing ai foundation model’s generalizability in permafrost mapping[J]. Remote Sensing, 2024, 16(5): 797.
+
+Rodenhizer H, \underline{Yang Y}, Fiske G, et al. A Comparison of Satellite Imagery Sources for Automated Detection of Retrogressive Thaw Slumps[J]. Remote Sensing, 2024, 16(13): 2361.
+
+\underline{Yang Y}, Rodenhizer H, Rogers B M, et al. A Collaborative and Scalable Geospatial Data Set for Arctic Retrogressive Thaw Slumps with Data Standards[J]. Scientific Data, 2025, 12(1): 18.
+
+Potter S, \underline{Yang Y}, Burrell A, et al. Mapping Arctic-Boreal Burned Area in North America Using a Convolutional Neural Network with Landsat and Sentinel-2 Imagery[J]. Available at SSRN 4803815.
+
+Zhining Gu, Wenwen Li... \underline{Yili Yang} et al., A multimodal vision transformer-based geospatial artificial intelligence model for mapping Arctic permafrost thaw, Computers, Environment and Urban Systems, Submitted.
+\end{rSection}
+
+%=====================================================
+\end{document}
